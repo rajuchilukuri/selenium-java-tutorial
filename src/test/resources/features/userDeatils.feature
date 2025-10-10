@@ -3,7 +3,6 @@ Feature:
 
 
 
-  mvn test -Dcucumber.filters.tag="@test"
   Scenario:
     Given user fill the form
     |name|email|phone|address|
